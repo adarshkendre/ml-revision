@@ -1,0 +1,23 @@
+artifact_path: file:C:/Users/Asus/ml-revision/mlruns/0/models/m-ec6921fa46ff480da5deafc90e502cfe/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.7
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.5.1
+    skops_trusted_types: null
+mlflow_version: 3.9.0
+model_id: m-ec6921fa46ff480da5deafc90e502cfe
+model_size_bytes: 429
+model_uuid: m-ec6921fa46ff480da5deafc90e502cfe
+prompts: null
+run_id: 844e48c50426484b9fd24aee99a8b0af
+utc_time_created: '2026-02-04 12:35:20.714116'
